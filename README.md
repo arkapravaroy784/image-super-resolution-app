@@ -50,7 +50,7 @@ https://image-super-resolution-app-ibmbu2m5hlc2g2szjqtafd.streamlit.app/
 
 ---
 ## ⚠️Disclaimer  
-The Streamlit Cloud demo may occasionally show errors or crash due to limited server resources and high compute demand during super-resolution inference. For smooth and error-free performance, please run the app locally by downloading `app.py` and `requirements.txt`.
+The Streamlit Cloud demo may occasionally show errors or crash due to limited server resources and high compute demand during super-resolution inference. For smooth and error-free performance, please run the app locally by downloading `app.py` and `requirements.txt`. To run the app & installing dependencies, please check out commands written in the project documentation (Image Upscalar Documentation.pdf).
 
 
 <img width="1569" height="1181" alt="Screenshot 2026-01-14 122324" src="https://github.com/user-attachments/assets/dde25048-a11d-49c4-b816-13e1469ba833" />
