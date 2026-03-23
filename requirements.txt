@@ -1,6 +1,0 @@
-torch
-torchvision
-torchsr
-streamlit
-streamlit-image-comparison
-pillow
