@@ -16,11 +16,13 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-# Load both models when the server starts
-models = {
-    2: edsr(scale=2, pretrained=True).to(device).eval(),
-    4: edsr(scale=4, pretrained=True).to(device).eval(),
-}
+# Models load only when first requested, not both at startup
+models = {}
+
+def get_model(scale):
+    if scale not in models:
+        models[scale] = edsr(scale=scale, pretrained=True).to(device).eval()
+    return models[scale]
 
 @app.get("/health")
 def health():
@@ -30,6 +32,8 @@ def health():
 async def upscale(file: UploadFile = File(...), scale: int = 2):
     if scale not in (2, 4):
         raise HTTPException(status_code=400, detail="scale must be 2 or 4")
+    if not file.content_type.startswith("image/"):
+        raise HTTPException(status_code=400, detail="File must be an image")
 
     contents = await file.read()
     img = Image.open(io.BytesIO(contents)).convert("RGB")
@@ -38,8 +42,9 @@ async def upscale(file: UploadFile = File(...), scale: int = 2):
     to_pil = T.ToPILImage()
     lr = to_tensor(img).unsqueeze(0).to(device)
 
+    model = get_model(scale)
     with torch.no_grad():
-        sr = models[scale](lr)
+        sr = model(lr)
 
     sr_img = to_pil(sr.squeeze(0).clamp(0, 1).cpu())
 
