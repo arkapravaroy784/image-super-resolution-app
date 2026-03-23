@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+torchsr
+Pillow
+streamlit
+streamlit-image-comparison
