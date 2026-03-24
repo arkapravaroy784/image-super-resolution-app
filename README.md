@@ -268,6 +268,13 @@ uvicorn api:app --reload
 
 Then open `http://127.0.0.1:8000/docs` in your browser.
 
+---
+
+##API DEMO
+
+![FastAPI - Swagger UI_page-0001](https://github.com/user-attachments/assets/0ce7b9f7-1950-4082-9afb-f9e78de0bbca)
+
+
 To run the original Streamlit app instead:
 
 ```bash
