@@ -280,3 +280,7 @@ To run the original Streamlit app instead:
 ```bash
 streamlit run app.py
 ```
+---
+
+## Author
+Arkaprava Roy
