@@ -244,7 +244,7 @@ This API is hosted on Render's free tier. If the API has not been used for a whi
 - JPG / JPEG
 
 ### Interactive Testing
-You can test all endpoints directly in the browser without writing any code by visiting:
+You can test all endpoints directly in the browser without writing any code by visiting: (⚠️Might take upto 1.5 Minutes for cold start)
 
 ```
 https://image-super-resolution-app.onrender.com/docs
