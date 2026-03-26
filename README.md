@@ -252,6 +252,12 @@ https://image-super-resolution-app.onrender.com/docs
 
 This opens the auto-generated Swagger UI where you can upload images and try the API interactively.
 
+### To check if the server is alive
+
+```
+https://image-super-resolution-app.onrender.com/health
+```
+
 ---
 
 ## Cold Start 
