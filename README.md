@@ -254,6 +254,13 @@ This opens the auto-generated Swagger UI where you can upload images and try the
 
 ---
 
+## Cold Start 
+
+⚠️ Note: Might take upto 1.5 Minutes for cold start. 
+
+<img width="1140" height="1285" alt="Screenshot 2026-03-26 182957" src="https://github.com/user-attachments/assets/a84a8529-45d7-444b-83ce-c169632d0cf2" />
+
+---
 ## Local Development
 
 To run the API locally:
