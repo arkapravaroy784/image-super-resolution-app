@@ -255,7 +255,7 @@ This opens the auto-generated Swagger UI where you can upload images and try the
 ### To check if the server is alive
 
 ```
-https://image-super-resolution-app.onrender.com/health
+https://web-production-c1b4b.up.railway.app/health
 ```
 
 ---
