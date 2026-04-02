@@ -247,7 +247,7 @@ This API is hosted on Render's free tier. If the API has not been used for a whi
 You can test all endpoints directly in the browser without writing any code by visiting:
 
 ```
-https://image-super-resolution-app.onrender.com/docs
+https://web-production-c1b4b.up.railway.app/docs
 ```
 
 This opens the auto-generated Swagger UI where you can upload images and try the API interactively.
