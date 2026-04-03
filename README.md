@@ -2,7 +2,7 @@
 
 A REST API for upscaling images using deep learning (EDSR model). Built with FastAPI and PyTorch.
 
-**Live API URL:** `https://web-production-c1b4b.up.railway.app/`
+**Live API URL:** `https://web-production-c1b4b.up.railway.app`
 
 ---
 
