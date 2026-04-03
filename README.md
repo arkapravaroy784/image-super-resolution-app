@@ -285,6 +285,9 @@ Then open `http://127.0.0.1:8000/docs` in your browser.
 
 ## API DEMO
 
+<img width="1208" height="1183" alt="image" src="https://github.com/user-attachments/assets/2e58e653-aef9-4e81-a098-ee98d31a9dea" />
+
+
 ![FastAPI - Swagger UI_page-0001](https://github.com/user-attachments/assets/4b02cc5b-57ee-4f96-8cf2-68e952fb2568)
 
 
