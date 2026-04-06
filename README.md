@@ -29,6 +29,8 @@ This API takes an image uploaded by the user and returns a super-resolved (upsca
 | Any PNG / JPG / JPEG image | Upscaled PNG image |
 | Scale factor: 2 or 4 | Image dimensions multiplied by the scale factor |
 
+Note: API request might crash due to very limited RAM(500mb)
+
 ---
 
 ## Project Structure
