@@ -225,7 +225,7 @@ The API returns standard HTTP status codes with a JSON error message.
 | `200` | Success | Upscaled image returned |
 | `400` | Bad request | Invalid scale value or non-image file uploaded |
 | `422` | Validation error | Required field missing |
-| `300` | Server error | Something went wrong internally |
+| `500` | Server error | Something went wrong internally |
 
 **Example error response:**
 ```json
