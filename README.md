@@ -290,8 +290,7 @@ Then open `http://127.0.0.1:8000/docs` in your browser.
 <img width="1208" height="1183" alt="image" src="https://github.com/user-attachments/assets/2e58e653-aef9-4e81-a098-ee98d31a9dea" />
 
 
-![FastAPI - Swagger UI_page-0001](https://github.com/user-attachments/assets/4b02cc5b-57ee-4f96-8cf2-68e952fb2568)
-
+<img width="2479" height="3508" alt="FastAPI - Swagger UI_page-0001" src="https://github.com/user-attachments/assets/8fff5a52-03c6-4e45-9715-61c22802b58a" />
 
 To run the original Streamlit app instead:
 
